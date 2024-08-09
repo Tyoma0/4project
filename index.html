@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+  <h1>  Форма опроса freeCodeCamp</h1>
+  <p>Благодарим вас за то, что нашли время помочь нам улучшить платформу</p>
+  <main>
+<form method="post" action="https://freecodecamp.org/practice-project/accessibility-quiz">
+<section role="region" aria-labelledby="html-questions">
+<div class="info"><label for="info-st">Имя</label><input id="info-st" name="info-st" type="text" placeholder="Введите свое имя"></div>
+<div class="info"><label for="info-st">Электронная почта</label><input id="info-st" name="info-st" type="email" placeholder="Введите свой адрес электронной почты"></div>
+<div class="info"><label for="info-st">Возраст(необязательно)</label><input id="info-st" name="info-st" type="number" placeholder="Возраст"></div>
+
+
+
+</section>
+<section role="region" aria-labelledby="html-questions">
+<div class="question-block">
+<fieldset class="questions">
+<div>
+  <label for="questions">Какой вариант лучше всего описывает вашу текущую роль?</label>
+  <select name="questions" id="questions"required >
+<option value="#">gggggg</option>
+<option value="1">hhhhh</option>
+<option value="2">jjjjjj</option>
+<option value="3">kkkkk</option>
+  </select>
+</div>
+<div class="questions1">
+<label for="questions1">Порекомендовали бы вы freeCodeCamp своим друзьям?</label>
+<ul class="answers-list">
+  <li>
+    <label for="q1-a1">
+      <input type="radio" id="q1-a1" name="q1" value="true" />
+      Определенно
+    </label>
+  </li>
+  <li>
+    <label for="q1-a2">
+      <input type="radio" id="q1-a2" name="q1" value="true" />
+      Возможно
+    </label>
+  </li>
+
+  <li>
+    <label for="q1-a3">
+      <input type="radio" id="q1-a3" name="q1" value="false" />
+      Не уверен
+    </label>
+  </li>
+
+</ul>
+
+
+</div>
+<div class="questions2">
+<label for="questions2">Какая ваша любимая функция freeCodeCamp?</label>
+<select name="questions2" id="Questions2">
+<option value="#"></option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+</select>
+</div>
+</fieldset>
+
+</div>
+
+
+
+
+
+</section>
+<section role="region" aria-labelledby="html-questions"></section>
+<div>
+<label class="la" for="questions3">Есть какие-нибудь комментарии или предложения?</label>
+<textarea name="questions3" id="questions3" placeholder="Введите свой комментарии..."></textarea>
+</div>
+
+
+
+
+
+<button type="submit">Send</button>
+</form>
+  </main>
+</body>
+</html>
